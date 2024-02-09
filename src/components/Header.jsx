@@ -25,7 +25,7 @@ export default function Header() {
                     {/* <!-- Menu --> */}
                     <div className="hidden h-10 md:flex md:space-x-8">
                         <div className="group">
-                            <a href="/Contact" className='text-blue-950'>Contact</a>
+                            <a href="/srforlandotest/contact" className='text-blue-950'>Contact</a>
                             <div className="mx-2 group-hover:border-b group-hover:border-amber-600"></div>
                         </div>
                         <div className="group">
