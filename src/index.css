@@ -5,7 +5,7 @@
 @font-face {
     font-family: "Archer";
     src: local('Archer'),
-    url('./assets/fonts/Archer\ Medium\ Italic.otf')
+    url('./assets/fonts/Archer Medium Italic.otf')
 }
 h2 {
   font-family: 'Archer';
