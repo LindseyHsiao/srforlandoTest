@@ -9,7 +9,7 @@ import Contact from './pages/Contact.jsx'
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/srforlandotest/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <Home />
       }, 
       {
-        path: 'contact', 
+        path: '/srforlandotest/contact', 
         element: <Contact />
       }
     ]
