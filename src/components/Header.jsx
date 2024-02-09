@@ -14,7 +14,7 @@ export default function Header() {
                 {/* <!-- Menu/Logo Container --> */}
                 <nav className="flex items-center justify-between font-bold text-blue">
                     {/* <!-- Logo --> */}
-                    <a href="/" className="flex-col h-10">
+                    <a href="/srforlandotest/" className="flex-col h-10">
                         <div className="flex">
                             <img className="max-h-10" src={srfLogo} alt="Self Realization Fellowship Logo" />
                             <img className="hidden md:h-10 md:flex" src={selfRealizationLogo} alt="Self Realization Fellowship Logo" />
