@@ -1,7 +1,6 @@
 import facebookIcon from '../assets/images/icon-facebook.svg'
 import instagramIcon from '../assets/images/icon-instagram.svg'
 import youTubeIcon from '../assets/images/youtube-logo.svg'
-import logo from '../assets/images/logo.png'
 import selfRealizationLogo from '../assets/images/srf-wordmark-navy.png'
 import srfLogo from '../assets/images/Updated_logo.png'
 
@@ -14,16 +13,16 @@ export default function Footer() {
                 {/* <!-- footer flex container --> */}
                 <div className="flex flex-col items-center space-y-6 md:flex-row md:space-y-0 md:justify-between md:items-start">
                     {/* <!-- menu and logo container  --> */}
-                    <div className="flex flex-col items-center space-y-8 md:items-start md:space-y-8 pb-10">
+                    <div className="flex flex-col items-center md:items-start md:space-y-2 pb-10">
                         {/* <!-- logo --> */}
                         {/* <div className="h-8">
                         <img src={srfLogo} alt="Jan Jennings Logo" className="w-14 md:ml-3"/>
                         </div> */}
-                        <div className="md:pl-6 flex">
-                            <img className="max-h-10" src={srfLogo} alt="Self Realization Fellowship Logo" />
-                            <img className="max-h-10 pr-10 " src={selfRealizationLogo} alt="Self Realization Fellowship Logo" />
+                        <div className="md:pl-6 flex flex-col items-center md:flex-row">
+                            <img className="max-h-10 max-w-10" src={srfLogo} alt="Self Realization Fellowship Logo" />
+                            <img className="max-h-10" src={selfRealizationLogo} alt="Self Realization Fellowship Logo" />
                         </div>
-                        <p className='text-amber-600 md:pl-16  text-xl'>Orlando Meditation Group</p>
+                        <p className='text-amber-600 md:pl-16 text-xl'>Orlando Meditation Group</p>
 
                     </div>
 

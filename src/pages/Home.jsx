@@ -158,39 +158,42 @@ export default function Home() {
         //         </section>
         //     </>
         <>
-            <div className='flex flex-col' style={{ backgroundImage: `url(${srfHome})` }}>
+            <div className='flex flex-col bg-cover' style={{ backgroundImage: `url(${srfHome})`, backgroundRepeat: 'no-repeat'}}>
                 <img src={fullLogoWhite} className='px-2 py-20 md:p-44' />
+                {/* <div>
+                <p className='flex-col items-center text-white m-x-auto'>Meditate With Us</p>
+                </div> */}
                 
                 {/* <p className='text-white'>"...you realize that all along there was something tremendous within you, and you did not know it"</p>
         <p className='text-white'>-Paramahansa Yogananda</p> */}
             </div>
 
-            <div className='flex mt-20 flex-col md:flex-row pr-0 md:pr-10'>
+            <div className='flex mt-20 flex-col md:flex-row pr-10 md:pr-10'>
                 <div className='pl-10 flex-col pb-10'>
-                    <h2 className='text-amber-600 pb-10 md:mt-28'>Paramahansa Yogananda</h2>
+                    <h2 className='text-amber-600 pb-10 md:mt-10 xl:mt-28'>Paramahansa Yogananda</h2>
                     <p className='pb-5 text-xl'>The pioneering father of Yoga in the West, Yogananda has uplifted the lives of millions through his Self-Realization Fellowship teachings.</p>
                     <div className='group'>
                         <a href='https://yogananda.org/paramahansa-yogananda' target='_blank' className='text-amber-600 text-xl'>Read About His Life</a>
-                        <div className="mr-[175px] md:mr-[450px] group-hover:border-b group-hover:border-amber-600"></div>
+                        <div className="mr-[140px] lg:mr-[330px] xl:mr-[450px] group-hover:border-b group-hover:border-amber-600"></div>
                     </div>
 
-                    <img className='md:h-[350px] pt-10 ml-32 md:mt-18' src={lotusOrange} />
+                    <img className='h-[200px] md:h-[350px] pt-10 ml-32 md:mt-18' src={lotusOrange} />
                 </div>
                 <div>
-                    <img src={PYStandard} className='pl-10 pr-10 md:pr-0' />
+                    <img src={PYStandard} className='pl-10 md:pr-0' />
                 </div>
             </div>
 
-            <div className='flex mt-20 flex-col-reverse md:flex-row pl-10 md:pl-0'>
+            <div className='flex xl:mt-20 flex-col-reverse md:flex-row pl-10 md:pl-0'>
                 <div>
                     <img src={meditators} className='pr-10 pt-10 md:pt-0 md:pr-0 md:w-9/12' />
                 </div>
-                <div className='flex-col md:-ml-60'>
-                    <h2 className='text-amber-600 pb-10 pr-10 md:mt-28'>Try a Beginners Meditation</h2>
-                    <p className='pb-5 pr-10  text-xl'>Discover the peace and divine consciousness that meditation brings</p>
+                <div className='flex-col lg:-ml-40 xl:-ml-60'>
+                    <h2 className='text-amber-600 pb-10 pr-10 mt-10 xl:mt-28'>Try a Beginners Meditation</h2>
+                    <p className='pb-5 pr-10 text-xl'>Discover the peace and divine consciousness that meditation brings</p>
                     <div className='group'>
                         <a href='https://yogananda.org/a-beginners-meditation' target='_blank' className='text-amber-600 text-xl'>Get Started</a>
-                        <div className="mr-[265px] md:mr-[445px] group-hover:border-b group-hover:border-amber-600"></div>
+                        <div className="mr-[220px] lg:mr-[330px] xl:mr-[445px] group-hover:border-b group-hover:border-amber-600"></div>
                     </div>
                 </div>
             </div>
@@ -202,7 +205,7 @@ export default function Home() {
                     <p className='pt-4 text-xl'>1st and 3rd Sundays (subject to change) <br />Meditation Service 9 AM to 9:50 <br />Reading Service 10 to 11</p>
                     <p className='pt-4 pb-4  text-xl'>Maitland Wellness Center<br /> 237 Lookout Place<br /> Maitland, FL 32751</p>
                     <div className='group'>
-                        <a href='/Contact' className='text-amber-600  text-xl'>Contact</a>
+                        <a href='/srforlandotest/contact' className='text-amber-600  text-xl'>Contact</a>
                         <div className="mr-[265px] md:mr-[475px] group-hover:border-b group-hover:border-amber-600"></div>
                     </div>
 
