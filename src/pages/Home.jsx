@@ -158,14 +158,18 @@ export default function Home() {
         //         </section>
         //     </>
         <>
-            <div className='flex flex-col bg-cover' style={{ backgroundImage: `url(${srfHome})`, backgroundRepeat: 'no-repeat'}}>
-                <img src={fullLogoWhite} className='px-2 py-20 md:p-44' />
-                {/* <div>
-                <p className='flex-col items-center text-white m-x-auto'>Meditate With Us</p>
-                </div> */}
-                
-                {/* <p className='text-white'>"...you realize that all along there was something tremendous within you, and you did not know it"</p>
-        <p className='text-white'>-Paramahansa Yogananda</p> */}
+            <div className='flex flex-col bg-cover' style={{ backgroundImage: `url(${srfHome})`, backgroundRepeat: 'no-repeat' }}>
+                <img src={fullLogoWhite} className='px-20 py-20 md:px-44 md:pt-24 md:pb-10 ' />
+                <div className='flex flex-col items-center justify-center mx-auto  '>
+                    <p className='text-white quote text-[18px] md:text-[32px] text-center p-6'>"...you realize that all along there was<br /> something tremendous within you, and you<br /> did not know it."</p>
+                    <p className='text-white quote text-[16px] md:text-[24px] '>-Paramahansa Yogananda</p>
+                    <div className='group pt-20 pb-20 '>
+                        <a href='#meditate' className='text-white text-[20px]'>Meditate With Us</a>
+                        <div className=" group-hover:border-b group-hover:border-white"></div>
+                    </div>
+                </div>
+
+
             </div>
 
             <div className='flex mt-20 flex-col md:flex-row pr-10 md:pr-10'>
@@ -198,7 +202,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className='flex mt-20 mb-10 justify-between content-center flex-col md:flex-row'>
+            <div id='meditate' className='flex mt-20 mb-10 justify-between content-center flex-col md:flex-row'>
                 <div className='flex-col pl-10 pr-10 pb-10 md:pb-0 md:pl-20'>
                     <h2 className='text-amber-600 pb-10'>Meditate with Us</h2>
                     <p className='text-xl'>Meeting Times:</p>

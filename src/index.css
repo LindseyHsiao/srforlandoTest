@@ -11,6 +11,10 @@ h2 {
   font-family: 'Archer';
   font-size: 50px;
 }
+.quote {
+  font-family: 'Archer';
+  
+}
 
   @layer base {
       h5 {

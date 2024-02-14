@@ -32,10 +32,10 @@ export default function Header() {
           </Link>
           {/* <!-- Menu --> */}
           <div className="hidden h-10 md:flex md:space-x-8">
-            <div className="group">
+            <div className="group ">
             <Link
             to="/srforlandotest/contact"
-            className="hover:text-amber-600"
+            className="text-blue-950"
           >
             Contact
           </Link>

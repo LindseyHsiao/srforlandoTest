@@ -25,7 +25,7 @@ export default function Contact() {
                     <img src={openLotus} alt="Jan" className=" right-[50%]"/>
                 </div>
                 {/* items container */}
-                <div className="flex flex-col space-y-12 text-xl md:w-1/2 md:text-left md:pl-16">
+                <div className="flex flex-col space-y-12 text-xl md:w-1/2 pt-10 pb-10 md:text-left md:pl-16">
                     {/* item 1 */}
                     <div>
                         <h4>email</h4>
