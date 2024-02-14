@@ -5,6 +5,8 @@ import PYStandard from '../assets/images/PY-standard.jpeg'
 import meditators from '../assets/images/meditators.jpg'
 import lotus from '../assets/images/lotus-6_blue_light.svg'
 import lotusOrange from '../assets/images/lotus-5_orange_light.svg'
+import { Link } from "react-router-dom";
+
 
 export default function Home() {
     return (
@@ -209,7 +211,8 @@ export default function Home() {
                     <p className='pt-4 text-xl'>1st and 3rd Sundays (subject to change) <br />Meditation Service 9 AM to 9:50 <br />Reading Service 10 to 11</p>
                     <p className='pt-4 pb-4  text-xl'>Maitland Wellness Center<br /> 237 Lookout Place<br /> Maitland, FL 32751</p>
                     <div className='group'>
-                        <a href='/srforlandotest/contact' className='text-amber-600  text-xl'>Contact</a>
+                    
+                        <Link to='/srforlandotest/contact' className='text-amber-600  text-xl'>Contact</Link>
                         <div className="mr-[265px] md:mr-[475px] group-hover:border-b group-hover:border-amber-600"></div>
                     </div>
 

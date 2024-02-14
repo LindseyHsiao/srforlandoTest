@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <section className="bg-white">
       {/* <!-- Hero --> */}
-      <div className="container max-w-6xl mx-auto px-6 py-12 md:px-0">
+      <div className="container max-w-6xl mx-auto px-6 p-12 md:px-0">
         {/* <!-- Menu/Logo Container --> */}
         <nav className="flex items-center justify-between font-bold text-blue">
           {/* <!-- Logo --> */}
